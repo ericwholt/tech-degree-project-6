@@ -7,8 +7,8 @@ html(class="no-js" lang="en" dir="ltr")
     title Portfolio Site
     // generics
     link(rel='shortcut icon', href='/static/img/favicon.ico', type='image/x-icon')
-    //- link(rel='icon', href='/static/img/favicon.ico', type='image/x-icon')
-    //- link(rel='icon', href='/static/img/favicon-32.png', sizes='32x32')
+    link(rel='icon', href='/static/img/favicon.ico', type='image/x-icon')
+    link(rel='icon', href='/static/img/favicon-32.png', sizes='32x32')
     link(rel='icon', href='/static/img/favicon-57.png', sizes='57x57')
     link(rel='icon', href='/static/img/favicon-76.png', sizes='76x76')
     link(rel='icon', href='/static/img/favicon-96.png', sizes='96x96')
@@ -37,24 +37,16 @@ html(class="no-js" lang="en" dir="ltr")
           .cell.shrink
             img.thumbnail(src='/static/img/eric-holt-550x350px.png')
           .cell.auto
-
-            //- Add your name here.
             h5 Eric Holt
-
-            //- Add text here to describe who you are, what you do, and why you are so aweome.
             p.text-light
               | I have spent my career learning what I need to know. My passion for technology started early. In sixth grade I got a Tandy 64 for Christmas and started writing color basic out of a book that came with it. I started combining various projects and creating things. I knew then I wanted to be a programmer. Life happens, and other opportunities were available, and I jumped on it. The last 20 years of my professional career have been working in IT and customer support. All of it has been self-taught and early guidance on the job. It’s now time to follow my heart and move into software development. The past year has been spent working during the day and coming home at night to study programming.
-
-            //- Add about page route to the href below. 
-            a(href='') Learn More →
+            a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
-
-          //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          span.title-bar-title Eric Holt
       block content
         
 

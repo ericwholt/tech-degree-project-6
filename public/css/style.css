@@ -137,9 +137,25 @@ a:hover {
   margin-bottom: 15px;
 }
 
+.portfolio-index .cell:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  text-shadow:
+    -.5px -.5px 0 #fff,
+    .5px -.5px 0 #fff,
+    -.5px .5px 0 #fff,
+    .5px .5px 0 #fff;
+}
+
 .portfolio-index .cell h5 {
+  text-align: center;
   letter-spacing: 1px;
   color: #000;
+}
+
+.portfolio-index .cell:hover h5 {
+  display: none;
 }
 
 .portfolio-meta {
