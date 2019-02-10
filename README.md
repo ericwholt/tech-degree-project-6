@@ -13,6 +13,15 @@ node.js is required to use this project. If you don't have it already then you c
 
 ### Added:
 ```
+.portfolio-index .cell {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+```
+### Added:
+```
 body {
   background-color: lightgray;
 }
@@ -35,6 +44,10 @@ body {
 ### Added:
 ```
 .portfolio-index .cell:hover {
+  -webkit-transition: opacity 200ms ease-out .5s;
+  -moz-transition: opacity 200ms ease-out .5s;
+  -o-transition: opacity 200ms ease-out .5s;
+  transition: opacity 200ms ease-out .5s;
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
   transform: scale(1.3);
@@ -48,6 +61,15 @@ body {
 ### Added:
 ```
 .portfolio-index .cell:hover h5 {
-  display: none;
+  -webkit-transition: opacity 0s ease-in;
+  -moz-transition: opacity 0s ease-in;
+  -o-transition: opacity 0s ease-in;
+  transition: opacity 0s ease-in;
+  text-align: center;
+  opacity: 0;
 }
 ```
+### Added:
+
+logo to layout.pug
+project-not-found.pug file and route for /project. Also if someone enters invalid id in route it will route to project-not-found
