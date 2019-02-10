@@ -1,0 +1,105 @@
+{
+  "projects": [{
+      "id": "0",
+      "project_name": "IDM3U_TRIM",
+      "description": "Tool created to trim orphaned images out of a idproject file. This was my first program written outside of tutorials. I had need to automate a very tedious task at work. This tool reduced the time it took to trim a project.",
+      "technologies": [
+        "C#",
+        "SQLITE"
+      ],
+      "live_link": "",
+      "github_link": "https://github.com/ericwholt/IDM3U_TRIM",
+      "image_urls": [
+        "/static/img/idm3u_trim-550x550px.png",
+        "/static/img/idm3u_trim-1200x550px.png",
+        "/static/img/idm3u_trim.gif"
+      ]
+    },
+    {
+      "id": "1",
+      "project_name": "Random Quote Generator",
+      "description": "Displays a randomly selected quote from an array of 5 objects containing quotes. This was my first project for the Treehouse | Full Stack Javascript Tech degree.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "live_link": "https://ericwholt.github.io/tech-degree-project-1/",
+      "github_link": "https://github.com/ericwholt/IDM3U_TRIM",
+      "image_urls": [
+        "/static/img/random-quote-generator-550x550px.png",
+        "/static/img/random-quote-generator-1200x550px.png",
+        "/static/img/random-quote-generator.gif"
+      ]
+    },
+    {
+      "id": "2",
+      "project_name": "Pagination and Search",
+      "description": "Builds pagination and adds search dynamically to html. The page consists of unordered list of students. When page loads it only shows first 10 students and splits them up into groups of ten and adds numbered links at bottom of page. Search field searchs through student names.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "live_link": "https://ericwholt.github.io/tech-degree-project-2/",
+      "github_link": "https://github.com/ericwholt/tech-degree-project-2",
+      "image_urls": [
+        "/static/img/pagination-and-searching-550x550px.png",
+        "/static/img/pagination-and-searching-1200x550px.png",
+        "/static/img/pagination-and-searching.gif"
+      ]
+    },
+    {
+      "id": "3",
+      "project_name": "Form Validation",
+      "description": "Form Validation using jquery/JavaScript. This was the 3rd project of the Treehouse | Full Stack Javascript Tech degree. This is a cruial lesson in how to work with forms and give user feed back where there are errors.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JQuery",
+        "JavaScript"
+      ],
+      "live_link": "https://ericwholt.github.io/tech-degree-project-3/",
+      "github_link": "https://github.com/ericwholt/tech-degree-project-3",
+      "image_urls": [
+        "/static/img/form-validation-550x550px.png",
+        "/static/img/form-validation-1200x550px.png",
+        "/static/img/form-validation.gif"
+      ]
+    },
+    {
+      "id": "4",
+      "project_name": "Phrase Guess Game",
+      "description": "Game that you try to guess the phrase, but you only get 5 wrong choices before you lose. Built using JavaScript Object Oriented Programming. I let my creativity flow on my 4th project of the Treehouse | Full Stack Javascript Tech degree.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "live_link": "https://ericwholt.github.io/tech-degree-project-4/",
+      "github_link": "https://github.com/ericwholt/tech-degree-project-4",
+      "image_urls": [
+        "/static/img/phrase-guess-game-550x550px.png",
+        "/static/img/phrase-guess-game-1200x550px.png",
+        "/static/img/phrase-guess-game.gif"
+      ]
+    },
+    {
+      "id": "4",
+      "project_name": "Employee Directory",
+      "description": "This employee directory is populated using randomuser.me api. This is my 5th project of the Treehouse | Full Stack Javascript Tech degree. This lesson taught us how to not only use API data, but also how to work with promises.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "live_link": "https://ericwholt.github.io/tech-degree-project-5/",
+      "github_link": "https://github.com/ericwholt/tech-degree-project-5",
+      "image_urls": [
+        "/static/img/employee-directory-550x550px.png",
+        "/static/img/employee-directory-1200x550px.png",
+        "/static/img/employee-directory.gif"
+      ]
+    }
+  ]
+}
