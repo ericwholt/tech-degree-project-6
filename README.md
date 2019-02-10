@@ -1,21 +1,28 @@
-#Style Changes
+# Style Changes
 
-###Added:
+### Added:
+```
 body {
   background-color: lightgray;
 }
+```
 
-###Added:
+### Added:
+```
 .portfolio-me {
   background-color: #2B5797;
 }
+```
 
-###Changed
+### Changed
+```
 .portfolio-me {
     color: #fff;
 }
+```
 
-###Added:
+### Added:
+```
 .portfolio-index .cell:hover {
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
@@ -26,9 +33,10 @@ body {
     -.5px .5px 0 #fff,
     .5px .5px 0 #fff;
 }
-
-###Added:
+```
+### Added:
+```
 .portfolio-index .cell:hover h5 {
   display: none;
 }
-
+```
