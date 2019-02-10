@@ -52,7 +52,7 @@
     {
       "id": "3",
       "project_name": "Form Validation",
-      "description": "Form Validation using jquery/JavaScript. This was the 3rd project of the Treehouse | Full Stack Javascript Tech degree. This is a cruial lesson in how to work with forms and give user feed back where there are errors.",
+      "description": "Form Validation using jquery/JavaScript. The 3rd project of the Treehouse | Full Stack Javascript Tech degree. This is a cruial lesson in how to work with forms and give user feed back when there are errors.",
       "technologies": [
         "HTML",
         "CSS",
@@ -70,7 +70,7 @@
     {
       "id": "4",
       "project_name": "Phrase Guess Game",
-      "description": "Game that you try to guess the phrase, but you only get 5 wrong choices before you lose. Built using JavaScript Object Oriented Programming. I let my creativity flow on my 4th project of the Treehouse | Full Stack Javascript Tech degree.",
+      "description": "In this Game you try to guess the phrase, but guess wrong 5 times and you lose. Built using JavaScript Object Oriented Programming. I let my creativity flow on my 4th project of the Treehouse | Full Stack Javascript Tech degree.",
       "technologies": [
         "HTML",
         "CSS",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "project_name": "Employee Directory",
       "description": "This employee directory is populated using randomuser.me api. This is my 5th project of the Treehouse | Full Stack Javascript Tech degree. This lesson taught us how to not only use API data, but also how to work with promises.",
       "technologies": [
